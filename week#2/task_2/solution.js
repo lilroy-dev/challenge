@@ -7,7 +7,7 @@ const areAnagrams = (str1, str2) => {
     for (let i = 0; i < arr_1.length; i++) {
         if (arr_1[i] !== arr_2[i]) return false;
     }
-    return true
+    return true;
 }
 
 
